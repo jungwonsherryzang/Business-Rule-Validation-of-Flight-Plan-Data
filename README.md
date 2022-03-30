@@ -10,7 +10,9 @@ FFICE stands for Flight and Flow Information for a Collaborative Environment def
 The criteria for FFICE Business Rule Validation are provided by the FIXM committee. In simple terms, there are number of FFICM XML Elements that need to exist in the message for it to be business rule valid. The idea of Business Rule Validation of flight plan is when XML messages come in and before it goes out, first, the message is checked against the schema to make sure it is valid, which means that checking the data is in the right place, data values are there and matching the right pattern. Second, the message is checked against the business rules, which means to make sure that all the required elements do exist within the message.
 
 # BUSINESS RULES/CRITERIA OF FLIGHT PLAN
--FIXM v.4.2 root element contains application header and Schema location
+ Markup : * FIXM v.4.2 root element contains application header and Schema location
+ 
+
 -Identifier and identifier domain are added in originator, gufiOriginator, and recipient element.
 -Under flight element, gufiOriginator element with identifier and identifier domain is added.
 -RelevantAtmServiceProvider element is added with provider and providerType element. This element only exists in AgreedTrajectory, File, FileUpdate,   RevisionRequest and TrialRequest XML files.
