@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ffice:FficeMessage xmlns:fb="http://www.fixm.aero/base/4.2" xmlns:ffice="http://www.fixm.aero/app/ffice/1.0" xmlns:fx="http://www.fixm.aero/flight/4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ffice:FficeTRP_FficeMessageType">
+  <ffice:flight>
+    <fx:gufi codeSpace="urn:uuid">44fa6f79-0d1a-43f3-9749-ec4c4998c2a4</fx:gufi>
+    <fx:gufiOriginator>
+      <fb:contact>
+        <fb:name>BOEING FOC</fb:name>
+        <fb:title>BOEING_DISPATCHER</fb:title>
+      </fb:contact>
+      <fb:identifier>BOEINGDMS</fb:identifier>
+      <fb:identifierDomain>FF-ICE</fb:identifierDomain>
+      <fb:name>BOEINGDMS</fb:name>
+    </fx:gufiOriginator>
+    <fx:routeTrajectoryGroup>
+      <fx:agreed>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">0.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:aerodromeReferencePoint>
+              <fb:locationIndicator>KIAH</fb:locationIndicator>
+            </fb:aerodromeReferencePoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">0.0</fb:altitude>
+            </fx:level>
+            <fx:pointProperty>
+              <fx:description>KIAH</fx:description>
+              <fx:propertyType>INITIAL_PREDICTION_POINT</fx:propertyType>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>29.985 -95.3416666666667</fb:pos>
+            </fx:position>
+            <fx:time>
+              <fx:absoluteTime>2022-03-22T13:42:51Z</fx:absoluteTime>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:standardInstrumentDeparture>
+              <fb:designator>JCT1</fb:designator>
+            </fx:standardInstrumentDeparture>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">235.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>JCT</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">277.0</fx:windDirection>
+              <fx:windSpeed uom="KT">79.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>JCT</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>30.5983333333333 -99.8166666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">424.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT37M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">288.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>KEMPL</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">275.0</fx:windDirection>
+              <fx:windSpeed uom="KT">79.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>KEMPL</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>30.72 -100.831666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">424.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT45M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">400.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>FST</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">273.0</fx:windDirection>
+              <fx:windSpeed uom="KT">79.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>FST</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>30.9516666666667 -102.975</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">424.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H1M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">529.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>FIGMO</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">268.0</fx:windDirection>
+              <fx:windSpeed uom="KT">81.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>FIGMO</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>31.59 -105.381666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">426.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H19M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">577.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>ELP</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">263.0</fx:windDirection>
+              <fx:windSpeed uom="KT">86.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>ELP</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>31.8166666666667 -106.281666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">423.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H26M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">619.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>RUTER</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-36.0</fx:temperature>
+              <fx:windDirection uom="DEG">261.0</fx:windDirection>
+              <fx:windSpeed uom="KT">91.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>RUTER</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>32.2833333333333 -106.898333333333</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">441.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H32M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">704.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>GREBE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">30000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-37.0</fx:temperature>
+              <fx:windDirection uom="DEG">258.0</fx:windDirection>
+              <fx:windSpeed uom="KT">90.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>GREBE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>33.2183333333333 -108.163333333333</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">443.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H43M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">790.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>SPLTR</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-40.0</fx:temperature>
+              <fx:windDirection uom="DEG">253.0</fx:windDirection>
+              <fx:windSpeed uom="KT">65.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>SPLTR</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>34.1616666666667 -109.468333333333</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">460.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H54M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">800.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>VERNO</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-40.0</fx:temperature>
+              <fx:windDirection uom="DEG">250.0</fx:windDirection>
+              <fx:windSpeed uom="KT">65.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>VERNO</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>34.26 -109.626666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">460.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT1H55M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">857.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>PYRIT</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-41.0</fx:temperature>
+              <fx:windDirection uom="DEG">258.0</fx:windDirection>
+              <fx:windSpeed uom="KT">47.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>PYRIT</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>34.87 -110.511666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">467.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H3M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">875.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>INW</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-41.0</fx:temperature>
+              <fx:windDirection uom="DEG">267.0</fx:windDirection>
+              <fx:windSpeed uom="KT">36.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>INW</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>35.0616666666667 -110.795</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">470.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H5M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+          <fx:routeDesignatorToNextElement>
+            <fx:routeDesignator>J86</fx:routeDesignator>
+          </fx:routeDesignatorToNextElement>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">937.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>BAVPE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-42.0</fx:temperature>
+              <fx:windDirection uom="DEG">291.0</fx:windDirection>
+              <fx:windSpeed uom="KT">27.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>BAVPE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>35.59 -111.88</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">469.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H13M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1073.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>NORRA</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-46.0</fx:temperature>
+              <fx:windDirection uom="DEG">337.0</fx:windDirection>
+              <fx:windSpeed uom="KT">27.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>NORRA</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>36.76 -114.281666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">470.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H30M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1177.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>TUONO</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-49.0</fx:temperature>
+              <fx:windDirection uom="DEG">324.0</fx:windDirection>
+              <fx:windSpeed uom="KT">30.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>TUONO</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>37.9933333333333 -115.82</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">458.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H44M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1270.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>SLADE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-50.0</fx:temperature>
+              <fx:windDirection uom="DEG">285.0</fx:windDirection>
+              <fx:windSpeed uom="KT">35.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>SLADE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>38.9383333333333 -117.391666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">454.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT2H56M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1368.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>BETBE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-50.0</fx:temperature>
+              <fx:windDirection uom="DEG">261.0</fx:windDirection>
+              <fx:windSpeed uom="KT">45.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>BETBE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>39.8916666666667 -119.096666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">454.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT3H9M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1481.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>BORDY</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-51.0</fx:temperature>
+              <fx:windDirection uom="DEG">249.0</fx:windDirection>
+              <fx:windSpeed uom="KT">58.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>BORDY</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>41.0016666666667 -121.095</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">452.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT3H24M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1532.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>KNZIE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-51.0</fx:temperature>
+              <fx:windDirection uom="DEG">246.0</fx:windDirection>
+              <fx:windSpeed uom="KT">53.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>KNZIE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>41.55 -121.966666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">460.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT3H31M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1589.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>HANDY</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-52.0</fx:temperature>
+              <fx:windDirection uom="DEG">245.0</fx:windDirection>
+              <fx:windSpeed uom="KT">52.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>HANDY</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>42.235 -122.841666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">466.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT3H38M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">1695.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>43.0 -125.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-52.0</fx:temperature>
+              <fx:windDirection uom="DEG">245.0</fx:windDirection>
+              <fx:windSpeed uom="KT">72.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>43N25</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>43.0 -125.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">436.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT3H53M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">2183.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>47.0 -135.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">32000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-50.0</fx:temperature>
+              <fx:windDirection uom="DEG">228.0</fx:windDirection>
+              <fx:windSpeed uom="KT">125.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>47N35</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>47.0 -135.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">433.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT5H</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">2395.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>48.0 -140.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">34000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-56.0</fx:temperature>
+              <fx:windDirection uom="DEG">251.0</fx:windDirection>
+              <fx:windSpeed uom="KT">32.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>48N40</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>48.0 -140.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">456.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT5H28M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">2808.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>50.0 -150.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">34000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-56.0</fx:temperature>
+              <fx:windDirection uom="DEG">308.0</fx:windDirection>
+              <fx:windSpeed uom="KT">41.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>50N50</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>50.0 -150.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">442.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT6H24M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">3195.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>51.0 -160.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">34000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-61.0</fx:temperature>
+              <fx:windDirection uom="DEG">242.0</fx:windDirection>
+              <fx:windSpeed uom="KT">51.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>51N60</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>51.0 -160.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">434.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT7H18M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">3574.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>51.0 -170.0</fb:pos>
+            </fb:position>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">34000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-49.0</fx:temperature>
+              <fx:windDirection uom="DEG">188.0</fx:windDirection>
+              <fx:windSpeed uom="KT">43.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>51N70</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>51.0 -170.0</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">481.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT8H5M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">4109.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>LYYLE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-51.0</fx:temperature>
+              <fx:windDirection uom="DEG">188.0</fx:windDirection>
+              <fx:windSpeed uom="KT">20.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>LYYLE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>50.515 175.945</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">485.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT9H11M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">4409.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>CARTO</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-51.0</fx:temperature>
+              <fx:windDirection uom="DEG">256.0</fx:windDirection>
+              <fx:windSpeed uom="KT">42.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>CARTO</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>48.675 168.783333333333</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">444.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT9H52M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">4705.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>CUTEE</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-52.0</fx:temperature>
+              <fx:windDirection uom="DEG">264.0</fx:windDirection>
+              <fx:windSpeed uom="KT">72.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>CUTEE</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>46.415 162.31</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">418.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT10H34M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">5056.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>KALIG</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-53.0</fx:temperature>
+              <fx:windDirection uom="DEG">261.0</fx:windDirection>
+              <fx:windSpeed uom="KT">95.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>KALIG</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>42.9816666666667 155.668333333333</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">398.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT11H27M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">5407.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>KALNA</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-51.0</fx:temperature>
+              <fx:windDirection uom="DEG">267.0</fx:windDirection>
+              <fx:windSpeed uom="KT">106.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>KALNA</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>39.1533333333333 149.825</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">399.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT12H20M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">5636.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:designatedPoint>
+              <fb:designator>ADNAP</fb:designator>
+            </fb:designatedPoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">36000.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">-47.0</fx:temperature>
+              <fx:windDirection uom="DEG">265.0</fx:windDirection>
+              <fx:windSpeed uom="KT">144.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>ADNAP</fx:description>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>37.1966666666667 145.666666666667</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">356.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT12H58M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:element>
+          <fx:alongRouteDistance uom="NM">5905.0</fx:alongRouteDistance>
+          <fx:elementStartPoint>
+            <fb:aerodromeReferencePoint>
+              <fb:locationIndicator>RJAA</fb:locationIndicator>
+            </fb:aerodromeReferencePoint>
+          </fx:elementStartPoint>
+          <fx:point4D>
+            <fx:level>
+              <fb:altitude uom="FT">100.0</fb:altitude>
+            </fx:level>
+            <fx:metData>
+              <fx:temperature uom="C">2.0</fx:temperature>
+              <fx:windDirection uom="DEG">349.0</fx:windDirection>
+              <fx:windSpeed uom="KT">12.0</fx:windSpeed>
+            </fx:metData>
+            <fx:pointProperty>
+              <fx:description>RJAA</fx:description>
+              <fx:propertyType>END_PREDICTION_POINT</fx:propertyType>
+            </fx:pointProperty>
+            <fx:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <fb:pos>35.765 140.385</fb:pos>
+            </fx:position>
+            <fx:predictedGroundspeed uom="KT">256.0</fx:predictedGroundspeed>
+            <fx:time>
+              <fx:relativeTimeFromInitialPredictionPoint>PT13H52M</fx:relativeTimeFromInitialPredictionPoint>
+            </fx:time>
+          </fx:point4D>
+        </fx:element>
+        <fx:routeInformation>
+          <fx:cruisingLevel>
+            <fb:flightLevel uom="FL">360.0</fb:flightLevel>
+          </fx:cruisingLevel>
+          <fx:cruisingSpeed uom="KT">503.0</fx:cruisingSpeed>
+        </fx:routeInformation>
+      </fx:agreed>
+    </fx:routeTrajectoryGroup>
+  </ffice:flight>
+  <ffice:originator>
+    <fb:identifier>JCAB</fb:identifier>
+    <fb:identifierDomain>FF-ICE</fb:identifierDomain>
+    <fb:name>JCAB</fb:name>
+  </ffice:originator>
+  <ffice:planningStatus>
+    <ffice:value>CONCUR</ffice:value>
+  </ffice:planningStatus>
+  <ffice:recipient>
+    <fb:identifier>BOEINGDMS</fb:identifier>
+    <fb:identifierDomain>FF-ICE</fb:identifierDomain>
+    <fb:name>BOEINGDMS</fb:name>
+  </ffice:recipient>
+  <ffice:referencedMessageIdentifier codeSpace="urn:uuid">31412c62-26b4-44b8-9627-b7bb3c956a33</ffice:referencedMessageIdentifier>
+  <ffice:timestamp>2022-03-22T12:57:58.108Z</ffice:timestamp>
+  <ffice:type>TRIAL_RESPONSE</ffice:type>
+  <ffice:uniqueMessageIdentifier codeSpace="urn:uuid">48e0bf99-2859-42a1-a170-a68ef48a283f</ffice:uniqueMessageIdentifier>
+</ffice:FficeMessage>

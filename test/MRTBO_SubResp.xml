@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FficeMessage xmlns="http://www.fixm.aero/app/ffice/1.0" xmlns:ns2="http://www.fixm.aero/flight/4.2" xmlns:ns3="http://www.fixm.aero/base/4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FficeSR_FficeMessageType">
+  <flight>
+    <ns2:gufi codeSpace="urn:uuid">44fa6f79-0d1a-43f3-9749-ec4c4998c2a4</ns2:gufi>
+  </flight>
+  <originator>
+    <ns3:contact>
+      <ns3:onlineContact>
+        <ns3:linkage>http://www.faa.gov</ns3:linkage>
+        <ns3:network>
+          <ns3:type>INTERNET</ns3:type>
+        </ns3:network>
+      </ns3:onlineContact>
+      <ns3:onlineContact>
+        <ns3:linkage>KZLAZZQA</ns3:linkage>
+        <ns3:network>
+          <ns3:type>AFTN</ns3:type>
+        </ns3:network>
+      </ns3:onlineContact>
+    </ns3:contact>
+    <ns3:identifier>FAA</ns3:identifier>
+    <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+    <ns3:name>FAA</ns3:name>
+  </originator>
+  <recipient>
+    <ns3:contact>
+      <ns3:name>BOEING FOC</ns3:name>
+      <ns3:title>BOEING_DISPATCHER</ns3:title>
+    </ns3:contact>
+    <ns3:identifier>BOEINGDMS</ns3:identifier>
+    <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+    <ns3:name>BOEINGDMS</ns3:name>
+  </recipient>
+  <referencedMessageIdentifier codeSpace="urn:uuid">91ffd583-3523-47ef-bcf0-804d3813db86</referencedMessageIdentifier>
+  <submissionStatus>
+    <value>ACK</value>
+  </submissionStatus>
+  <timestamp>2022-03-22T12:25:12.597Z</timestamp>
+  <type>SUBMISSION_RESPONSE</type>
+  <uniqueMessageIdentifier codeSpace="urn:uuid">01415e6f-526b-4e3b-94aa-f651ce90fb8a</uniqueMessageIdentifier>
+</FficeMessage>

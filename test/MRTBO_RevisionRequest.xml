@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns4:Ffice2Message xmlns:ns4="http://www.fixm.aero/app/ffice2/1.0" xmlns="http://www.fixm.aero/app/ffice/1.0" xmlns:ns2="http://www.fixm.aero/flight/4.2" xmlns:ns3="http://www.fixm.aero/base/4.2">
+  <ns4:flight>
+    <ns2:aircraft>
+      <ns2:aircraftAddress>A14306</ns2:aircraftAddress>
+      <ns2:aircraftType>
+        <ns2:numberOfAircraft>1</ns2:numberOfAircraft>
+        <ns2:type>
+          <ns2:icaoAircraftTypeDesignator>B77W</ns2:icaoAircraftTypeDesignator>
+        </ns2:type>
+      </ns2:aircraftType>
+      <ns2:capabilities>
+        <ns2:communication>
+          <ns2:communicationCapabilityCode>V</ns2:communicationCapabilityCode>
+          <ns2:datalinkCommunicationCapabilityCode>J4 J5</ns2:datalinkCommunicationCapabilityCode>
+        </ns2:communication>
+        <ns2:navigation>
+          <ns2:navigationCapabilityCode>D G I W</ns2:navigationCapabilityCode>
+          <ns2:otherNavigationCapabilities>R</ns2:otherNavigationCapabilities>
+        </ns2:navigation>
+        <ns2:standardCapabilities>STANDARD</ns2:standardCapabilities>
+        <ns2:surveillance>
+          <ns2:surveillanceCapabilityCode>S</ns2:surveillanceCapabilityCode>
+        </ns2:surveillance>
+      </ns2:capabilities>
+      <ns2:registration>N777B1</ns2:registration>
+      <ns2:wakeTurbulence>H</ns2:wakeTurbulence>
+    </ns2:aircraft>
+    <ns2:arrival>
+      <ns2:destinationAerodrome>
+        <ns3:locationIndicator>RJAA</ns3:locationIndicator>
+      </ns2:destinationAerodrome>
+    </ns2:arrival>
+    <ns2:departure>
+      <ns2:aerodrome>
+        <ns3:locationIndicator>KIAH</ns3:locationIndicator>
+      </ns2:aerodrome>
+      <ns2:estimatedOffBlockTime>2022-03-22T20:10:00Z</ns2:estimatedOffBlockTime>
+    </ns2:departure>
+    <ns2:flightIdentification>
+      <ns2:aircraftIdentification>UAL7</ns2:aircraftIdentification>
+    </ns2:flightIdentification>
+    <ns2:flightPlanOriginator>
+      <ns3:contact>
+        <ns3:name>BOEING FOC</ns3:name>
+        <ns3:title>BOEING_DISPATCHER</ns3:title>
+      </ns3:contact>
+      <ns3:identifier>BOEINGDMS</ns3:identifier>
+      <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+      <ns3:name>BOEINGDMS</ns3:name>
+    </ns2:flightPlanOriginator>
+    <ns2:flightType>S</ns2:flightType>
+    <ns2:gufi codeSpace="urn:uuid">3789c713-c295-462f-b1c0-f3f46a839f3d</ns2:gufi>
+    <ns2:gufiOriginator>
+      <ns3:contact>
+        <ns3:name>BOEING FOC</ns3:name>
+        <ns3:title>BOEING_DISPATCHER</ns3:title>
+      </ns3:contact>
+      <ns3:identifier>BOEINGDMS</ns3:identifier>
+      <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+      <ns3:name>BOEINGDMS</ns3:name>
+    </ns2:gufiOriginator>
+    <ns2:remarks>TCAS</ns2:remarks>
+    <ns2:routeTrajectoryGroup>
+      <ns2:filed>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">4634</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>NRKEY</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">56</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>NRKEY</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>50.195 160.39</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">459</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:absoluteTime>2022-03-22T20:40:00Z</ns2:absoluteTime>
+            </ns2:time>
+          </ns2:point4D>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">4653</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>50 160</ns3:pos>
+            </ns3:position>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">52</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>50E60</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>50 160</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5057</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>AGEDI</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">30</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>AGEDI</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>44.1666666666667 155.096666666667</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT53M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5546</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>LEPKI</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">28</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>LEPKI</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>37 150</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT1H54M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>OTR11</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5771</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>AVBET</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">77</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>AVBET</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>36.1416666666667 145.466666666667</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H22M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>Y809</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5838</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>IDLAN</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">84</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>IDLAN</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>36.0166666666667 144.095</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H30M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>Y809</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5881</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>POROT</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">38000</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-57</ns2:temperature>
+              <ns2:windDirection uom="DEG">83</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>POROT</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>35.93 143.228333333333</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">481</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H35M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>Y809</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5945</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>OLDIV</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">20100</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-25</ns2:temperature>
+              <ns2:windDirection uom="DEG">83</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>OLDIV</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>35.7933333333333 141.918333333333</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">413</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H44M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>Y809</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5953</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>LESPO</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">17700</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-21</ns2:temperature>
+              <ns2:windDirection uom="DEG">83</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>LESPO</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>35.7766666666667 141.76</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">399</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H45M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+          <ns2:routeDesignatorToNextElement>
+            <ns2:routeDesignator>Y809</ns2:routeDesignator>
+          </ns2:routeDesignatorToNextElement>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">5967</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:designatedPoint>
+              <ns3:designator>SUPOK</ns3:designator>
+            </ns3:designatedPoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">13900</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">-13</ns2:temperature>
+              <ns2:windDirection uom="DEG">88</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>SUPOK</ns2:description>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>35.77 141.47</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">377</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT2H47M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+        </ns2:element>
+        <ns2:element>
+          <ns2:alongRouteDistance uom="NM">6020</ns2:alongRouteDistance>
+          <ns2:elementStartPoint>
+            <ns3:aerodromeReferencePoint>
+              <ns3:locationIndicator>RJAA</ns3:locationIndicator>
+            </ns3:aerodromeReferencePoint>
+          </ns2:elementStartPoint>
+          <ns2:point4D>
+            <ns2:level>
+              <ns3:altitude uom="FT">100</ns3:altitude>
+            </ns2:level>
+            <ns2:metData>
+              <ns2:temperature uom="C">11</ns2:temperature>
+              <ns2:windDirection uom="DEG">90</ns2:windDirection>
+              <ns2:windSpeed uom="KT">0</ns2:windSpeed>
+            </ns2:metData>
+            <ns2:pointProperty>
+              <ns2:description>RJAA</ns2:description>
+              <ns2:propertyType>END_PREDICTION_POINT</ns2:propertyType>
+            </ns2:pointProperty>
+            <ns2:position srsName="urn:ogc:def:crs:EPSG::4326">
+              <ns3:pos>35.765 140.385</ns3:pos>
+            </ns2:position>
+            <ns2:predictedGroundspeed uom="KT">235</ns2:predictedGroundspeed>
+            <ns2:time>
+              <ns2:relativeTimeFromInitialPredictionPoint>PT3H1M</ns2:relativeTimeFromInitialPredictionPoint>
+            </ns2:time>
+          </ns2:point4D>
+        </ns2:element>
+        <ns2:routeInformation>
+          <ns2:cruisingLevel>
+            <ns3:flightLevel uom="FL">380</ns3:flightLevel>
+          </ns2:cruisingLevel>
+          <ns2:cruisingSpeed uom="KT">481</ns2:cruisingSpeed>
+          <ns2:flightRulesCategory>I</ns2:flightRulesCategory>
+        </ns2:routeInformation>
+      </ns2:filed>
+    </ns2:routeTrajectoryGroup>
+  </ns4:flight>
+  <ns4:originator>
+    <ns3:contact>
+      <ns3:name>BOEING FOC</ns3:name>
+      <ns3:title>BOEING_DISPATCHER</ns3:title>
+    </ns3:contact>
+    <ns3:identifier>BOEINGDMS</ns3:identifier>
+    <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+    <ns3:name>BOEINGDMS</ns3:name>
+  </ns4:originator>
+  <ns4:recipient>
+    <ns3:contact>
+      <ns3:name>BOEING FOC</ns3:name>
+      <ns3:title>BOEING_DISPATCHER</ns3:title>
+    </ns3:contact>
+    <ns3:identifier>FAA</ns3:identifier>
+    <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+    <ns3:name>FAA</ns3:name>
+  </ns4:recipient>
+  <ns4:relevantAtmServiceProvider>
+    <ns4:provider>
+      <ns3:contact>
+        <ns3:name>BOEING FOC</ns3:name>
+        <ns3:title>BOEING_DISPATCHER</ns3:title>
+      </ns3:contact>
+      <ns3:identifier>FAA</ns3:identifier>
+      <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+      <ns3:name>FAA</ns3:name>
+    </ns4:provider>
+    <ns4:providerType>FFICE_PARTICIPANT</ns4:providerType>
+  </ns4:relevantAtmServiceProvider>
+  <ns4:relevantAtmServiceProvider>
+    <ns4:provider>
+      <ns3:contact>
+        <ns3:name>BOEING FOC</ns3:name>
+        <ns3:title>BOEING_DISPATCHER</ns3:title>
+      </ns3:contact>
+      <ns3:identifier>JCAB</ns3:identifier>
+      <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+      <ns3:name>JCAB</ns3:name>
+    </ns4:provider>
+    <ns4:providerType>FFICE_PARTICIPANT</ns4:providerType>
+  </ns4:relevantAtmServiceProvider>
+  <ns4:relevantAtmServiceProvider>
+    <ns4:provider>
+      <ns3:contact>
+        <ns3:name>BOEING FOC</ns3:name>
+        <ns3:title>BOEING_DISPATCHER</ns3:title>
+      </ns3:contact>
+      <ns3:identifier>NAVCANADA</ns3:identifier>
+      <ns3:identifierDomain>FF-ICE</ns3:identifierDomain>
+      <ns3:name>NAVCANADA</ns3:name>
+    </ns4:provider>
+    <ns4:providerType>FFICE_PARTICIPANT</ns4:providerType>
+  </ns4:relevantAtmServiceProvider>
+  <ns4:timestamp>2022-03-22T20:28:04Z</ns4:timestamp>
+  <ns4:type>REVISION_REQUEST</ns4:type>
+  <ns4:uniqueMessageIdentifier codeSpace="urn:uuid">ebfc2fad-bdb9-4003-ad1a-0739987222af</ns4:uniqueMessageIdentifier>
+</ns4:Ffice2Message>
