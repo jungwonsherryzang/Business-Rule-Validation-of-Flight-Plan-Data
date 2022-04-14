@@ -1,4 +1,4 @@
-class Localization {
+class MessageValidation {
     static get ValidationMessages(): any {
         return {
             aircraftaddress: "Please enter a valid aircraft address.",
