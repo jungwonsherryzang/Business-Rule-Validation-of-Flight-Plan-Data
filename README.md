@@ -50,3 +50,21 @@ The criteria for FFICE Business Rule Validation are provided by the FIXM committ
   </relevantAtmServiceProvider>
 ```
 
+## VALIDATION RULES
+1. Aircraft Address Validator
+2. Aircraft Type Designator Validator
+3. Date ISO Validator
+4. Communication Capability Code Validator
+5. Wake Turbulence Category
+6. Data link Communication Capability Code Validator
+7. Navi Capability Code Validator
+8. Surveillance Capability Code Validator
+9. Standard Capability Validator
+10. Location Indicator Validator -> We need to define the aerodrome from 'G'. I have finished A to F.
+11. Flight Type Validator
+12. Gufi Validator
+13. Type Validator
+
+
+
+//This module is not completely finished yet. Need to add more values and rules relating to flight planning.
