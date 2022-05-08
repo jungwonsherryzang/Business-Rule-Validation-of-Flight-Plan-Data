@@ -51,6 +51,8 @@ The criteria for FFICE Business Rule Validation are provided by the FIXM committ
 ```
 
 ## VALIDATION RULES
+//These are what I have been working so far!
+
 1. Aircraft Address Validator
 2. Aircraft Type Designator Validator
 3. Date ISO Validator
